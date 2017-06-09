@@ -1,0 +1,30 @@
+.vertical-line {
+    position: absolute;
+    left: 21em;
+    top: 17em;
+    background-color: #4025C2;
+}
+.jorge-hernandez-box-top {
+    width: 10em;
+    position: absolute;
+    left: 16em;
+}
+.title-top {
+    position: absolute;
+    z-index:100;
+    left: 14.4em;
+    bottom: 24.5em;
+}
+.jorge-hernandez-box-bottom {
+    width: 10em;
+    position: absolute;
+    top: 30em;
+    left: 16em;
+
+}
+.title-bottom {
+    position: absolute;
+    z-index:100;
+    left: 14.4em;
+    top: 28.5em;
+}
