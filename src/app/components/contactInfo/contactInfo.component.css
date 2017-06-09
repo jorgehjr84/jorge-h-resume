@@ -3,6 +3,7 @@
     width: 18em;
     height: 11em;
     top: 19em;
+    right: 71.3em;
 }
 a {
  text-decoration: none;   
@@ -14,7 +15,7 @@ a {
     position: absolute;
     z-index: 100;
     top: 21em;
-    left: 2em;
+    left: 1.2em;
     width: 16em;
 }
 .github-link {

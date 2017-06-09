@@ -1,0 +1,37 @@
+.medullanExp-content {
+    position: absolute;
+    left: 12em;
+    top: 10em;
+}
+.vertical-line {
+    position: absolute;
+    left: 21em;
+    top: 7.4em;
+    background-color: #4025C2;
+}
+.medullan-box-top {
+    width: 10em;
+    height: 8em;
+    position: absolute;
+    left: 16em;
+}
+.title-top {
+    position: absolute;
+    z-index: 100;
+    left: 16em;
+    top: 1.5em;
+}
+.medullan-box-bottom {
+    width: 10em;
+    height: 8em;
+    position: absolute;
+    top: 20.4em;
+    left: 16em;
+
+}
+.title-bottom {
+     position: absolute;
+    z-index: 100;
+    left: 16em;
+    top: 19.2em;
+}

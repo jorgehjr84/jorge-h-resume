@@ -1,0 +1,39 @@
+.lavExp-content {
+    position: absolute;
+    left: 30em;
+    top: 10em;
+}
+.vertical-line {
+    position: absolute;
+    left: 21em;
+    top: 7.4em;
+    background-color: #4025C2;
+}
+.lavExp-box-top {
+    width: 10em;
+    height: 8em;
+    position: absolute;
+    left: 16em;
+}
+.title-top {
+    position: absolute;
+    z-index: 100;
+    left: 15.3em;
+    top: 1.5em;
+    text-align: center;
+}
+.lavExp-box-bottom {
+    width: 10em;
+    height: 8em;
+    position: absolute;
+    top: 20.4em;
+    left: 16em;
+
+}
+.title-bottom {
+    position: absolute;
+    z-index: 100;
+    left: 15.3em;
+    top: 18.6em;
+    text-align: center;
+}

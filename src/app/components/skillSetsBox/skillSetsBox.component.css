@@ -1,0 +1,17 @@
+.skillSetsBox {
+    width: 18em;
+    height: 28em;
+    position: absolute;
+    left: 67em;
+}
+.skillSetsBox-content {
+    position: absolute;
+    z-index: 100;
+    left: 67em;
+    top: 12em;
+    line-height: 1.75em;
+
+}
+.skillSets-list {
+    list-style: none;
+}

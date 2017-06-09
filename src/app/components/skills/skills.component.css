@@ -1,0 +1,33 @@
+.skills-content {
+    position: absolute;
+    left: 42em;
+}
+.vertical-line {
+    position: absolute;
+    left: 21em;
+    top: 9.2em;
+    background-color: #4025C2;
+}
+.skills-box-top {
+    width: 10em;
+    position: absolute;
+    left: 16em;
+}
+.title-top {
+    position: absolute;
+    z-index: 100;
+    left: 16.7em;
+    top: 2.5em;
+}
+.skills-box-bottom {
+    width: 10em;
+    position: absolute;
+    top: 22.2em;
+    left: 16em;
+}
+.title-bottom {
+    position: absolute;
+    z-index:100;
+    left: 16.7em;
+    top: 22em;
+}
