@@ -23,10 +23,20 @@ import { Component, trigger, animate, state, style, keyframes, transition } from
         transform: 'translateY(0)'
       })),
       transition('inactive => active', animate('900ms ease-in')),
-      transition('active => inactive', animate('900ms ease-out  '))
+      transition('active => inactive', animate('900ms ease-out'))
+    ]),
+    trigger('activateExperience', [
+      state('inactive', style({
+        opacity: .25,
+        transform: 'scale(1)'
+      })),
+      state('active', style({
+        opacity: 1,
+        transform: 'scale(1.1)'
+      })),
+      transition('inactive => active', animate('200ms ease-in')),
+      transition('active => inactive', animate('200ms ease-out  '))
     ])
-  
-  
   ]
 })
 export class MedullanExpComponent {
