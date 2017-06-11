@@ -1,6 +1,7 @@
 .skills-content {
     position: absolute;
-    left: 42em;
+    left: 41em;
+    bottom: 35em;
 }
 .vertical-line {
     position: absolute;

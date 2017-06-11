@@ -3,6 +3,16 @@
     left: 12em;
     top: 10em;
 }
+.medullanExp-content h5{
+    position: relative;
+    left: 21em;
+    top: 5.5em;
+}
+.medullanExp-content button{
+    position: relative;
+    left: 27em;
+    top: 10em;
+}
 .vertical-line {
     position: absolute;
     left: 21em;

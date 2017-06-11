@@ -7,9 +7,25 @@
 <img src="../assets/line-arrow.png" alt="" class="arrow2">
 <img src="../assets/line-arrow.png" alt="" class="arrow3">
 <div class="experience-section">
-    <medullan-experience></medullan-experience>
-    <freelance-experience></freelance-experience>
-    <lav-experience></lav-experience>
+    <div>
+        <medullan-experience></medullan-experience>
+        <button class="medullan-request-button" value="medullanRequestClicked" (click)="isClass1Visible = !isClass1Visible">Make Request</button>
+        <hr [ngClass]="{'medullan-request-line-start': isClass1Visible, 'medullan-request-line': !isClass1Visible}" />
+        <div *ngIf="!isClass1Visible" class="arrowPointer">></div>
+        <h5> Return Node, AngularJS, Android</h5>
+    </div>
+    <div class="sent-to-background">
+        <freelance-experience ></freelance-experience>
+        <!--<button value="medullanClicked" (click)="makeRequest(1)">Make Request</button>
+        <hr style="border-top: dotted 2px;" class="request-line-start" />
+        <h5> Return Node, AngularJS, Android</h5>-->
+    </div>
+    <div class="sent-to-background">
+        <lav-experience></lav-experience>
+        <!--<button value="medullanClicked" (click)="makeRequest(1)">Make Request</button>
+        <hr style="border-top: dotted 2px;" class="request-line-start" />
+        <h5> Return Node, AngularJS, Android</h5>-->
+    </div>
 </div>
 <skills></skills>
 <skillSets-box></skillSets-box>

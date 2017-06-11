@@ -2,7 +2,8 @@
     width: 18em;
     height: 28em;
     position: absolute;
-    left: 67em;
+    left: 66em;
+    bottom: 5em;
 }
 .skillSetsBox-content {
     position: absolute;

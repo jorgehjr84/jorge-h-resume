@@ -3,6 +3,16 @@
     left: 21em;
     top: 10em;
 }
+.freelanceExp-content h5{
+    position: relative;
+    left: 21em;
+    top: 5.5em;
+}
+.freelanceExp-content button{
+    position: relative;
+    left: 27em;
+    top: 11em;
+}
 .vertical-line {
     position: absolute;
     left: 21em;
@@ -17,8 +27,9 @@
 }
 .title-top {
     position: absolute;
+    width: 10em;
     z-index: 100;
-    left: 16em;
+    left: 15em;
     top: 1.5em;
 }
 .freelance-box-bottom {
@@ -30,8 +41,9 @@
 
 }
 .title-bottom {
-     position: absolute;
+    position: absolute;
     z-index: 100;
-    left: 16em;
+    left: 15em;
     top: 19.2em;
+    width: 10em;
 }
