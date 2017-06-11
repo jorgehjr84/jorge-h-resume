@@ -50,46 +50,6 @@
     -o-animation: fadein 5s; /* Opera < 12.1 */
     animation: fadein 5s;
 }
-.medullan-request-line-start {
-    border-top: dotted 2px;
-    position: relative;
-    left: 5.3em;
-    top: 13.5em;
-    width: 0;
-    height: 0;
-}
-.medullan-request-line {
-    border-top: dotted 2px;
-    position: relative;
-    left: 5em;
-    top: 13.5em;
-    width: 33em;
-    height: 0;
-    transition: width 4s;
-}
-.request-line-start {
-    border-top: dotted 2px;
-    position: relative;
-    left: 21em;
-    top: 7em;
-    width: 34em;
-}
-.arrowPointer {
-    position: absolute;
-    z-index: 100;
-    top: 22.45em;
-    left: 66em;
-}
-.request-line {
-    width: 34em;
-    height: 2em;
-    transition: width 2s;
-}
-.medullan-request-button {
-    position: relative;
-    left: 43.5em;
-    top: 19.5em;
-}
 
 @keyframes fadein {
     from { opacity: 0; }

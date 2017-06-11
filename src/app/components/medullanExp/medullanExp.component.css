@@ -45,3 +45,30 @@
     left: 16em;
     top: 19.2em;
 }
+.make-request-line { 
+    position: relative;
+    top: 8.6em;
+    left: 21em;
+    height: 2px;
+    background: #000;
+}
+
+.returned-skills {
+    position: relative !important;
+    top: 10em !important;
+    left: 31em !important;
+}
+.return-skills-line {
+    position: relative;
+    top: 7em;
+    left: 21em;
+    height: 2px;
+    background: #000;
+    width: 33.4em;
+}
+.return-arrow-pointer {
+    position: relative;
+    left: 21em;
+    top: 5.75em;
+}
+
