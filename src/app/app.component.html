@@ -8,14 +8,53 @@
 <img src="../assets/line-arrow.png" alt="" class="arrow3">
 <div class="experience-section">
     <div>
-        <medullan-experience></medullan-experience>
+        <medullan-experience [@activateExperience]='state1'></medullan-experience>
+        <button class="medullan-make-request" href="#medullan-exp" tabindex="1" (click)="toggleReturn(1)">Make Request</button>
+        <div class="medullan-make-request-line" href="#medullan-exp" tabindex="1" [@requestSkills]='state1'></div>
+        <div [@displayReturnedSkills]='state1'>
+            <h5 class="medullan-returned-skills"> Return Node, AngularJS, Swift, Android, Agile, <br> Leadership Skills, Communication</h5>
+            <hr class="medullan-return-skills-line">
+            <div class="medullan-return-arrow-pointer"><</div>
+        </div>        
     </div>
     <div>
-        <freelance-experience ></freelance-experience>
+        <freelance-experience [@activateExperience]='state2'></freelance-experience>
+        <button class="freelance-make-request" tabindex="1" (click)="toggleReturn(2)">Make Request</button>
+        <div class="freelance-make-request-line" tabindex="1" [@requestSkills]='state2'></div>
+        <div [@displayReturnedSkills]='state2'>
+            <h5 class="freelance-returned-skills"> Return Node, AngularJS, Swift, Android, Agile, <br> Leadership Skills, Communication</h5>
+            <hr class="freelance-return-skills-line">
+            <div class="freelance-return-arrow-pointer"><</div>
+        </div>        
     </div>
     <div >
-        <lav-experience></lav-experience>
+        <lav-experience [@activateExperience]='state3'></lav-experience>
+        <button class="lav-make-request" tabindex="1" (click)="toggleReturn(3)">Make Request</button>
+        <div class="lav-make-request-line" tabindex="1" [@requestSkills]='state3'></div>
+        <div [@displayReturnedSkills]='state3'>
+            <h5 class="lav-returned-skills"> Return Node, AngularJS, Swift, Android, Agile, <br> Leadership Skills, Communication</h5>
+            <hr class="lav-return-skills-line">
+            <div class="lav-return-arrow-pointer"><</div>
+        </div>        
     </div>
 </div>
 <skills></skills>
 <skillSets-box></skillSets-box>
+
+<!--<div class="medullanExp-content" [@activateExperience]='state'>
+    <img src="../../../assets/bubbleBox.png" alt="" class="medullan-box-top">
+    <h3 class="title-top">Medullan</h3>
+    <h5>April 2016 - Present</h5>
+    <hr width="1" size="205" class="vertical-line">
+    <img src="../../../assets/bubbleBox.png" alt="" class="medullan-box-bottom">
+    <h3 class="title-bottom">Medullan</h3>
+    
+    <button class="make-request" href="#medullan-exp" tabindex="1" (click)="toggleReturn()">Make Request</button>
+    <div class="make-request-line" href="#medullan-exp" tabindex="1" [@requestSkills]='state'></div>
+    
+    <div [@displayReturnedSkills]='state'>
+        <h5 class="returned-skills"> Return Node, AngularJS, Swift, Android, Agile, <br> Leadership Skills, Communication</h5>
+        <hr class="return-skills-line">
+        <div class="return-arrow-pointer"><</div>
+    </div>
+</div>-->

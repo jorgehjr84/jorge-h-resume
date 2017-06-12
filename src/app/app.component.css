@@ -51,6 +51,102 @@
     animation: fadein 5s;
 }
 
+.medullan-make-request {
+    position: absolute;
+    left: 44em;
+    top: 32em;
+}
+.medullan-make-request-line { 
+    position: relative;
+    top: 15.6em;
+    left: 5em;
+    height: 4px;
+    background: #000;
+    z-index: 100;
+}
+.medullan-returned-skills {
+    position: relative !important;
+    top: 18em !important;
+    left: 41em !important;
+}
+.medullan-return-skills-line {
+    position: relative;
+    top: 14em;
+    left: 5em;
+    height: 2px;
+    background: #000;
+    width: 33.5em;
+}
+.medullan-return-arrow-pointer {
+    position: relative;
+    left: 32.5em;
+    top: 12.75em;
+}
+.freelance-make-request {
+    position: absolute;
+    left: 57.5em;
+    top: 32em;
+}
+.freelance-make-request-line { 
+    position: relative;
+    top: 9.6em;
+    left: 21.5em;
+    height: 4px;
+    background: #000;
+    z-index: 100;
+    width: 64.5em;
+}
+.freelance-returned-skills {
+    position: relative !important;
+    top: 11em !important;
+    left: 51em !important;
+}
+.freelance-return-skills-line {
+    position: relative;
+    top: 8em;
+    left: 9.5em;
+    height: 2px;
+    background: #000;
+    width: 24.4em;
+}
+.freelance-return-arrow-pointer {
+    position: relative;
+    left: 41.5em;
+    top: 6.75em;
+}
+.lav-make-request {
+    position: absolute;
+    left: 70.6em;
+    top: 32em;
+}
+.lav-make-request-line { 
+    position: relative;
+    top: 3.6em;
+    left: 37.8em;
+    height: 4px;
+    background: #000;
+    z-index: 100;
+    width: 41em;
+}
+.lav-returned-skills {
+    position: relative !important;
+    top: 3em !important;
+    left: 61em !important;
+}
+.lav-return-skills-line {
+    position: relative;
+    top: 2em;
+    left: 14em;
+    height: 2px;
+    background: #000;
+    width: 15.4em;
+}
+.lav-return-arrow-pointer {
+    position: relative;
+    left: 50.5em;
+    top: 0.75em;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -78,7 +174,4 @@
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-.sent-to-background {
-    opacity: .25;
 }
