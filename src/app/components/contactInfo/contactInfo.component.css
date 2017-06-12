@@ -1,9 +1,6 @@
 .contact-info-box {
-    position: absolute;
-    width: 18em;
+    width: 105%;
     height: 11em;
-    top: 19em;
-    right: 71.3em;
 }
 a {
  text-decoration: none;   
@@ -13,11 +10,8 @@ a {
 }
 .contact-info-text {
     position: absolute;
-    z-index: 100;
-    top: 21em;
-    left: 1.2em;
-    width: 16em;
+    bottom: 26em;
+    left: 2.1%;
+    width: 20%;
 }
-.github-link {
-    
-}
+

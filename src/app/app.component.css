@@ -3,7 +3,7 @@
 }
 .experience-header {
     position: absolute;
-    left: 42em;
+    left: 43em;
     top: 20em;
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 5s; /* Firefox < 16 */
@@ -11,6 +11,29 @@
     -o-animation: fadein 5s; /* Opera < 12.1 */
     animation: fadein 5s;
 }
+
+#contact-info-section {
+    display: inline-block;
+    background-color: lightgray;
+    max-width: 17em;
+}
+#jorge-hernandez-section {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    bottom: 9.5em;
+    right: 15em;
+}
+
+#experience-section { 
+    width: 43%;
+    display: inline-block;
+    position: relative;
+    left: 24em;
+    bottom: 11em;
+}
+
+
 .arrow1{
     height: 1em;
     width: 10em;
