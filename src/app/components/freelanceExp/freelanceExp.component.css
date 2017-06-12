@@ -1,49 +1,42 @@
 .freelanceExp-content {
-    position: absolute;
-    left: 21em;
-    top: 10em;
+    position: relative;
+    bottom: 44.5em;
+    left: 36%;
 }
 .freelanceExp-content h5{
+    z-index: 100;
     position: relative;
-    left: 21em;
-    top: 5.5em;
-}
-.freelanceExp-content button{
-    position: relative;
-    left: 27em;
-    top: 11em;
+    bottom: 11em;
+    left: 3%;
 }
 .vertical-line {
-    position: absolute;
-    left: 21em;
-    top: 7.4em;
+    position: relative;
+    right: 40.5%;
+    bottom: 8.1em;
     background-color: #4025C2;
 }
 .freelance-box-top {
-    width: 10em;
+    width: 25%;
     height: 8em;
-    position: absolute;
-    left: 16em;
+    position: relative;
+    left: .1em;
 }
 .title-top {
-    position: absolute;
-    width: 10em;
-    z-index: 100;
-    left: 15em;
-    top: 1.5em;
+    position: relative;
+    bottom: 6.8em;
+    right: 37%;
+    text-align: center;
 }
 .freelance-box-bottom {
-    width: 10em;
+    width: 25%;
     height: 8em;
-    position: absolute;
-    top: 20.4em;
-    left: 16em;
-
+    position: relative;
+    left: .1em;
+    bottom: 9em;
 }
 .title-bottom {
-    position: absolute;
-    z-index: 100;
-    left: 15em;
-    top: 19.2em;
-    width: 10em;
+    position: relative;
+    right: 37%;
+    bottom: 14em;
+    text-align: center;
 }
