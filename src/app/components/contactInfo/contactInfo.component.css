@@ -10,8 +10,9 @@ a {
 }
 .contact-info-text {
     position: absolute;
-    bottom: 26em;
+    bottom: 29em;
     left: 2.1%;
     width: 20%;
+    z-index: 100;
 }
 

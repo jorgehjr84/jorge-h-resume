@@ -1,40 +1,29 @@
 .medullanExp-content h5{
-    z-index: 100;
     position: relative;
-    bottom: 8em;
-    left: 17%;
+    bottom: 11em;
 }
 .vertical-line {
     position: relative;
-    right: 22.5%;
-    bottom: 4.8em;
+    bottom: 6.7em;
     background-color: #4025C2;
 }
 .medullan-box-top {
-    width: 25%;
-    height: 8em;
-    position: relative;
-    left: 5em;
-    top: 2em;
+    width: 100%;
+    height: 8em;    
 }
 .title-top {
-    z-index: 100;
     position: relative;
-    bottom: 5em;
-    left: 19%;
+    bottom: 7em;
 }
 .medullan-box-bottom {
-    width: 25%;
+    width: 100%;
     height: 8em;
     position: relative;
-    left: 5em;
-    bottom: 5.6em;
+    bottom: 7.5em;
 }
 .title-bottom {
-    z-index: 100;
     position: relative;
-    left: 19%;
-    bottom: 11em;
+    bottom: 13em;
 }
 .make-request-line { 
     position: relative;

@@ -3,8 +3,8 @@
 }
 .experience-header {
     position: absolute;
-    left: 43em;
-    top: 20em;
+    left: 42em;
+    top: 21em;
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 5s; /* Firefox < 16 */
     -ms-animation: fadein 5s; /* Internet Explorer */
@@ -14,7 +14,6 @@
 
 #contact-info-section {
     display: inline-block;
-    background-color: lightgray;
     max-width: 17em;
 }
 #jorge-hernandez-section {
@@ -24,15 +23,41 @@
     bottom: 9.5em;
     right: 15em;
 }
-
 #experience-section { 
     width: 43%;
     display: inline-block;
     position: relative;
-    left: 24em;
+    left: 23.3em;
     bottom: 11em;
+    text-align: center;
 }
-
+.experience-column {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.freelance {
+    position: relative;
+    top: 2.7em;
+}
+.lav {
+    position: relative;
+    top: 2.7em;
+}
+.skills-section {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    bottom: 15.5em;
+    right: 38.7em;
+}
+.skillSets-box-section {
+    width: 23%;
+    display: inline-block;
+    position: absolute;
+    top: 7em;
+    left: 77%;
+}
 
 .arrow1{
     height: 1em;
@@ -76,85 +101,69 @@
 
 .medullan-make-request {
     position: absolute;
-    left: 44em;
-    top: 32em;
+    left: 2.4em;
+    top: 17em;
+    width: 9em;
 }
 .medullan-make-request-line { 
-    position: relative;
-    top: 15.6em;
-    left: 5em;
-    height: 4px;
-    background: #000;
-    z-index: 100;
-}
-.medullan-returned-skills {
-    position: relative !important;
-    top: 18em !important;
-    left: 41em !important;
-}
-.medullan-return-skills-line {
-    position: relative;
-    top: 14em;
-    left: 5em;
+    position: absolute;
+    top: 16.6em;
+    left: 24%;
     height: 2px;
     background: #000;
-    width: 33.5em;
+    z-index: 100;
+    width: 77%;
 }
-.medullan-return-arrow-pointer {
+.medullan-request-arrow-pointer {
     position: relative;
-    left: 32.5em;
-    top: 12.75em;
+    left: 49.5%;
+    bottom: .55em;
 }
 .freelance-make-request {
     position: absolute;
-    left: 57.5em;
-    top: 32em;
+    left: 2.4em;
+    top: 17em;
+    width: 9em;
 }
-.freelance-make-request-line { 
-    position: relative;
-    top: 9.6em;
-    left: 21.5em;
-    height: 4px;
-    background: #000;
-    z-index: 100;
-    width: 64.5em;
-}
-.freelance-returned-skills {
-    position: relative !important;
-    top: 11em !important;
-    left: 51em !important;
-}
-.freelance-return-skills-line {
-    position: relative;
-    top: 8em;
-    left: 9.5em;
+.freelance-make-request-line {
+    position: absolute;
+    top: 16.6em;
+    left: 50%;
     height: 2px;
     background: #000;
-    width: 24.4em;
+    z-index: 100;
+    width: 185%;
 }
-.freelance-return-arrow-pointer {
+.freelance-request-arrow-pointer {
     position: relative;
-    left: 41.5em;
-    top: 6.75em;
+    left: 49%;
+    bottom: 0.6em;
 }
+
 .lav-make-request {
     position: absolute;
-    left: 70.6em;
-    top: 32em;
+    left: 2.4em;
+    top: 17em;
+    width: 9em;
 }
 .lav-make-request-line { 
-    position: relative;
-    top: 3.6em;
-    left: 37.8em;
-    height: 4px;
+    position: absolute;
+    top: 16.6em;
+    left: 50%;
+    height: 2px;
     background: #000;
     z-index: 100;
-    width: 41em;
+    width: 92%;
 }
-.lav-returned-skills {
-    position: relative !important;
-    top: 3em !important;
-    left: 61em !important;
+.lav-request-arrow-pointer {
+    position: relative;
+    left: 47%;
+    bottom: 0.6em;
+}
+/*.lav-returned-skills {
+    position: relative;
+    left: 49%;
+    bottom: 0.6em;
 }
 .lav-return-skills-line {
     position: relative;
@@ -168,7 +177,21 @@
     position: relative;
     left: 50.5em;
     top: 0.75em;
+}*/
+
+
+
+.returned-skills {
+    position: absolute;
+    bottom: 20em;
+    left: 23%;
+    background-color: lightgray;
+    width: 30em;
+    border-radius: 2px;
+    z-index: 101;
 }
+
+
 
 @keyframes fadein {
     from { opacity: 0; }

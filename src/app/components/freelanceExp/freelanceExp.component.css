@@ -1,42 +1,27 @@
-.freelanceExp-content {
-    position: relative;
-    bottom: 44.5em;
-    left: 36%;
-}
 .freelanceExp-content h5{
-    z-index: 100;
-    position: relative;
+   position: relative;
     bottom: 11em;
-    left: 3%;
 }
 .vertical-line {
     position: relative;
-    right: 40.5%;
     bottom: 8.1em;
     background-color: #4025C2;
 }
 .freelance-box-top {
-    width: 25%;
+    width: 100%;
     height: 8em;
-    position: relative;
-    left: .1em;
 }
 .title-top {
     position: relative;
-    bottom: 6.8em;
-    right: 37%;
-    text-align: center;
+    bottom: 7em;
 }
 .freelance-box-bottom {
-    width: 25%;
+    width: 100%;
     height: 8em;
     position: relative;
-    left: .1em;
-    bottom: 9em;
+    bottom: 8.85em;
 }
 .title-bottom {
     position: relative;
-    right: 37%;
-    bottom: 14em;
-    text-align: center;
+    bottom: 15em;
 }

@@ -25,31 +25,47 @@ import { SkillsComponent } from './components/skills/skills.component';
         transform: 'scale(1.1)'
       })),
       transition('inactive => active', animate('200ms ease-in')),
-      transition('active => inactive', animate('200ms ease-out  '))
+      transition('active => inactive', animate('300ms ease-out'))
     ]),
     trigger('requestSkills', [
       state('inactive', style({
         transform: 'scale(0)'
       })),
       state('active', style({
-       transform: 'scale(.378)'
-
+       transform: 'scale(1)'
       })),
       transition('inactive => active', animate('200ms ease-in')),
-      transition('active => inactive', animate('100ms ease-out  '))
+      transition('active => inactive', animate('300ms ease-out'))
     ]),
     trigger('displayReturnedSkills', [
       state('inactive', style({
-        transform: 'translateY(-600%)'
+        opacity: 0,
+        transform: 'translateX(-100%)'
       })),
       state('active', style({
-        transform: 'translateY(0)'
+        opacity: 1,
+        transform: 'translateX(0)'
       })),
-      transition('inactive => active', animate('900ms ease-in')),
-      transition('active => inactive', animate('900ms ease-out'))
+      transition('inactive => active', animate('.2s ease-in')),
+      transition('active => inactive', animate('.2s ease-out'))
     ])
   ]
 
+
+  // trigger('flyInOut', [
+  //   state('in', style({opacity: 1, transform: 'translateX(0)'})),
+  //   transition('void => *', [
+  //     style({
+  //       opacity: 0,
+  //       transform: 'translateX(-100%)'
+  //     }),
+  //     animate('0.2s ease-in')
+  //   ]),
+  //   transition('* => void', [
+  //     animate('0.2s 10 ease-out', style({
+  //       opacity: 0,
+  //       transform: 'translateX(100%)'
+  //     }))
 })
 export class AppComponent {
   title = "Jorge Hernandez's Sequence Diagram Resume";
@@ -62,6 +78,7 @@ export class AppComponent {
     console.log(event)
     if(event == 1) {
       this.state1 = (this.state1 === 'inactive' ? 'active' : 'inactive');
+      console.log(this.state1);
       this.state2 = 'inactive';
       this.state3 = 'inactive';
     }else if (event == 2) {
@@ -75,52 +92,3 @@ export class AppComponent {
     }  
   }
 }
-
-
-// @Component({
-//   selector: 'medullan-experience',
-//   templateUrl: './medullanExp.component.html',
-//   styleUrls: ['./medullanExp.component.css'],
-//   animations: [
-//     trigger('requestSkills', [
-//       state('inactive', style({
-//         transform: 'scale(0)'
-//       })),
-//       state('active', style({
-//         transform: 'scale(1)'
-//       })),
-//       transition('inactive => active', animate('200ms ease-in')),
-//       transition('active => inactive', animate('100ms ease-out  '))
-//     ]),
-//     trigger('displayReturnedSkills', [
-//       state('inactive', style({
-//         transform: 'translateY(900%)'
-//       })),
-//       state('active', style({
-//         transform: 'translateY(0)'
-//       })),
-//       transition('inactive => active', animate('900ms ease-in')),
-//       transition('active => inactive', animate('900ms ease-out'))
-//     ]),
-//     trigger('activateExperience', [
-//       state('inactive', style({
-//         opacity: .25,
-//         transform: 'scale(1)'
-//       })),
-//       state('active', style({
-//         opacity: 1,
-//         transform: 'scale(1.1)'
-//       })),
-//       transition('inactive => active', animate('200ms ease-in')),
-//       transition('active => inactive', animate('200ms ease-out  '))
-//     ])
-//   ]
-// })
-// export class MedullanExpComponent {
-//   state: string = 'inactive';
-
-//   toggleReturn() {
-//     this.state = (this.state === 'inactive' ? 'active' : 'inactive');
-//   }
-
-// }
