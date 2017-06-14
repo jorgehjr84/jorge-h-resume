@@ -1,0 +1,27 @@
+.freelanceExp-content h5{
+   position: relative;
+    bottom: 11em;
+}
+.vertical-line {
+    position: relative;
+    bottom: 8.1em;
+    background-color: #4025C2;
+}
+.freelance-box-top {
+    width: 100%;
+    height: 8em;
+}
+.title-top {
+    position: relative;
+    bottom: 7em;
+}
+.freelance-box-bottom {
+    width: 100%;
+    height: 8em;
+    position: relative;
+    bottom: 8.85em;
+}
+.title-bottom {
+    position: relative;
+    bottom: 15em;
+}

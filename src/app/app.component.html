@@ -1,3 +1,59 @@
-<h1>
-  {{title}}
-</h1>
+
+<header></header>
+<div id="main-content">
+    <contactInfo id="contact-info-section"></contactInfo>
+    <jorgeHernandez id="jorge-hernandez-section"></jorgeHernandez>
+    <h5 class="experience-header">Experience</h5>
+    <img src="../assets/line-arrow.png" alt="" class="arrow1">
+    <img src="../assets/line-arrow.png" alt="" class="arrow2">
+    <img src="../assets/line-arrow.png" alt="" class="arrow3">
+    <div id="experience-section">
+        <div class="experience-column" [@activateExperience]='state1'>
+            <medullan-experience ></medullan-experience>
+            <button class="medullan-make-request" href="#medullan-exp" tabindex="1" (click)="toggleReturn(1)">Make Request</button>
+        </div>
+            <div class="medullan-make-request-line" href="#medullan-exp" tabindex="1" [@requestSkills]='state1'>
+                <div class="medullan-request-arrow-pointer">></div>
+            </div>
+            <div class="returned-skills medullan-skills" [@displayReturnedSkills]='state1'>
+                <h5 class="medullan-returned-skills">
+                    <u>Return: Angular, NodeJS, Swift, Android, Leadership</u> <br>
+                    - Create new features for large insurance web app with over 500k monthly visitors using Angular and NodeJS. <br>
+                    - Created a Custom Amazon Alexa Skill to help in home care givers better assist their patients. <br>
+                    - Developed native iOS and Android applications in an effort to better assist individuals with COPD.
+                </h5>
+            </div>
+        <div class="experience-column freelance" [@activateExperience]='state2'>
+            <freelance-experience></freelance-experience>
+            <button class="freelance-make-request" tabindex="1" (click)="toggleReturn(2)">Make Request</button>
+            <div class="freelance-make-request-line" tabindex="1" [@requestSkills]='state2'>
+                <div class="freelance-request-arrow-pointer">></div>
+            </div>
+            <div class="returned-skills freelance-skills" [@displayReturnedSkills]='state2'>
+                <h5 class="medullan-returned-skills">
+                    <u> Return: Angular, HTML, CSS, Wordpress, Communication </u><br>
+                    - Debug and fix bugs with AngularJS. <br>
+                    - Communicate effictively to determine clients needs and expectations. <br>
+                    - Implement UI features with HTML, CSS, as well as Wordpress.
+                </h5>
+            </div>
+        </div>
+        <div class="experience-column lav" [@activateExperience]='state3'>
+            <lav-experience></lav-experience>
+            <button class="lav-make-request" tabindex="1" (click)="toggleReturn(3)">Make Request</button>
+            <div class="lav-make-request-line" tabindex="1" [@requestSkills]='state3'>
+                <div class="lav-request-arrow-pointer">></div>
+            </div>
+            <div class="returned-skills lav-skills" [@displayReturnedSkills]='state3'>
+                <h5 class="medullan-returned-skills">
+                    <u> Return: Leadership, Team building, Excel, Communcation </u><br>
+                    -  Main point of contact for high end clients.<br>
+                    - Booked and managed large AV crews for conventions. At times 40+ techs. <br>
+                    - Handled all invoicing and proposals for clients. 
+                </h5>
+            </div>
+        </div>
+    </div>
+    <skills class="skills-section"></skills>
+    <skillSets-box class="skillSets-box-section"></skillSets-box>
+</div>

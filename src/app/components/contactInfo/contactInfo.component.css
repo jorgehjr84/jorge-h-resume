@@ -1,0 +1,18 @@
+.contact-info-box {
+    width: 105%;
+    height: 11em;
+}
+a {
+ text-decoration: none;   
+ color: black;
+ cursor: pointer;
+ line-height: 1.75em;
+}
+.contact-info-text {
+     position: absolute;
+    bottom: 44.5em;
+    left: 2.03%;
+    width: 20%;
+    z-index: 100;
+}
+

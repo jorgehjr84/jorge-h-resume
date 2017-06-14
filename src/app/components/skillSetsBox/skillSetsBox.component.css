@@ -1,0 +1,12 @@
+.skillSetsBox {
+    width: 18em;
+    height: 28em;
+}
+.skillSetsBox-content {
+    position: relative;
+    bottom: 25em;
+    line-height: 1.75em;
+}
+.skillSets-list {
+    list-style: none;
+}
