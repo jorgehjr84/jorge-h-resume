@@ -1,10 +1,17 @@
+#main-content {
+    position: relative;
+    top: 6em;
+}
 .content{
-    background-color: #ecf0f1;
+    background-image: url('../assets/PaintSwatches_1400x900.jpg');
+    background-size:     cover;            
+    background-repeat:   no-repeat;
+    background-position: center center;      
 }
 .experience-header {
     position: absolute;
     left: 42em;
-    top: 21em;
+    top: 12em;
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 5s; /* Firefox < 16 */
     -ms-animation: fadein 5s; /* Internet Explorer */
@@ -64,8 +71,8 @@
     width: 10em;
     position: absolute;
     z-index: 100;
-    left: 23.4em;
-    top: 19em;
+    left: 22.4em;
+    top: 12em;
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 5s; /* Firefox < 16 */
     -ms-animation: fadein 5s; /* Internet Explorer */
@@ -77,8 +84,8 @@
     width: 10em;
     position: absolute;
     z-index: 100;
-    left: 32.4em;
-    top: 19.5em;
+    left: 31.4em;
+    top: 12.5em;
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 5s; /* Firefox < 16 */
     -ms-animation: fadein 5s; /* Internet Explorer */
@@ -91,7 +98,7 @@
     position: absolute;
     z-index: 100;
     left: 41.4em;
-    top: 20.5em;
+    top: 13em;
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 5s; /* Firefox < 16 */
     -ms-animation: fadein 5s; /* Internet Explorer */
@@ -160,35 +167,31 @@
     left: 47%;
     bottom: 0.6em;
 }
-/*.lav-returned-skills {
-    position: relative;
-    left: 49%;
-    bottom: 0.6em;
-}
-.lav-return-skills-line {
-    position: relative;
-    top: 2em;
-    left: 14em;
-    height: 2px;
-    background: #000;
-    width: 15.4em;
-}
-.lav-return-arrow-pointer {
-    position: relative;
-    left: 50.5em;
-    top: 0.75em;
-}*/
-
-
 
 .returned-skills {
     position: absolute;
     bottom: 20em;
-    left: 23%;
-    background-color: lightgray;
+    background-color: #8e44ad;
     width: 30em;
     border-radius: 2px;
-    z-index: 101;
+    z-index: 101 !important;
+    text-align: left;
+    padding-left: 2em;
+}
+.returned-skills h5 {
+    color: white;
+}
+.medullan-skills {
+    left: 76%;
+    bottom: 15em;
+}
+.freelance-skills {
+    top: 40%;
+}
+.lav-skills {
+    left: 24%;
+    top: 17em;
+    height: 7em;
 }
 
 

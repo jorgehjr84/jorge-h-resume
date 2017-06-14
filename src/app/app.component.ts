@@ -44,28 +44,12 @@ import { SkillsComponent } from './components/skills/skills.component';
       })),
       state('active', style({
         opacity: 1,
-        transform: 'translateX(0)'
+        transform: 'translateX(-60%)'
       })),
       transition('inactive => active', animate('.2s ease-in')),
       transition('active => inactive', animate('.2s ease-out'))
     ])
   ]
-
-
-  // trigger('flyInOut', [
-  //   state('in', style({opacity: 1, transform: 'translateX(0)'})),
-  //   transition('void => *', [
-  //     style({
-  //       opacity: 0,
-  //       transform: 'translateX(-100%)'
-  //     }),
-  //     animate('0.2s ease-in')
-  //   ]),
-  //   transition('* => void', [
-  //     animate('0.2s 10 ease-out', style({
-  //       opacity: 0,
-  //       transform: 'translateX(100%)'
-  //     }))
 })
 export class AppComponent {
   title = "Jorge Hernandez's Sequence Diagram Resume";
@@ -75,10 +59,8 @@ export class AppComponent {
     state3: string = 'inactive';
 
   toggleReturn(event) {
-    console.log(event)
     if(event == 1) {
       this.state1 = (this.state1 === 'inactive' ? 'active' : 'inactive');
-      console.log(this.state1);
       this.state2 = 'inactive';
       this.state3 = 'inactive';
     }else if (event == 2) {

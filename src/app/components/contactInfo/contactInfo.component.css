@@ -9,9 +9,9 @@ a {
  line-height: 1.75em;
 }
 .contact-info-text {
-    position: absolute;
-    bottom: 29em;
-    left: 2.1%;
+     position: absolute;
+    bottom: 44.5em;
+    left: 2.03%;
     width: 20%;
     z-index: 100;
 }
